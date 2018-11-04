@@ -4,7 +4,7 @@ Donate link: https://omnipay.io/downloads/edd-paddle-payment-gateway/
 Tags: paddle, paddle payment, paddle checkout, easy digital downloads, edd, payment, payment gateway, gateway, paddle payment gateway, paddle gateway, credit card, paypal, pay, online payment, shop, e-commerce, ecommerce
 Requires at least: 4.0
 Tested up to: 4.9.9
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPL-2.0+
 
 Accept a wide range of global payment methods including all major Credit Cards, PayPal, ApplePay and Wire Transfers (ACH/SEPA/BACS).
@@ -37,6 +37,12 @@ Navigate to your WordPress "Plugins" page, inside of your WordPress dashboard, a
 Have any question, shoot us a mail via support[at]omnipay.io
 
 == Changelog ==
+
+= 1.2 =
+* Fixed bug where user weren't being assigned to payment.
+* Fixed subscription buynow payment.
+* Fixed Call to undefined function get_plugin_data()
+* Added site url to auth app name.
 
 = 1.1 =
 * Added option to create account for non-recurring product via buy now checkout
