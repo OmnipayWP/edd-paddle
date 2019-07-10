@@ -1,5 +1,4 @@
 === Easy Digital Downloads - Paddle Gateway ===
-Contributors: Collizo4sky
 Donate link: https://omnipay.io/downloads/edd-paddle-payment-gateway/
 Tags: paddle, paddle payment, paddle checkout, easy digital downloads, edd, payment, payment gateway, gateway, paddle payment gateway, paddle gateway, credit card, paypal, pay, online payment, shop, e-commerce, ecommerce
 Requires at least: 4.0
