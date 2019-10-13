@@ -3,7 +3,7 @@ Donate link: https://omnipay.io/downloads/edd-paddle-payment-gateway/
 Tags: paddle, paddle payment, paddle checkout, easy digital downloads, edd, payment, payment gateway, gateway, paddle payment gateway, paddle gateway, credit card, paypal, pay, online payment, shop, e-commerce, ecommerce
 Requires at least: 4.0
 Tested up to: 5.2
-Stable tag: 1.2.5
+Stable tag: 1.2.6
 License: GPL-2.0+
 
 Accept a wide range of global payment methods including all major Credit Cards, PayPal, ApplePay and Wire Transfers (ACH/SEPA/BACS).
@@ -37,8 +37,11 @@ Have any question, shoot us a mail via support[at]omnipay.io
 
 == Changelog ==
 
+= 1.2.6 =
+* Fixed bug where subscription refund didn’t set the payment as refunded.
+
 = 1.2.5 =
-* Fixed issue where multiple payments records were created for a single order
+* Fixed issue where multiple payments records were created for a single order.
 * Fixed issue where multiple license keys are generated for a single payment.
 
 = 1.2.4 =
