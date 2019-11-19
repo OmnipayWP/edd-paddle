@@ -2,8 +2,8 @@
 Donate link: https://omnipay.io/downloads/edd-paddle-payment-gateway/
 Tags: paddle, paddle payment, paddle checkout, easy digital downloads, edd, payment, payment gateway, gateway, paddle payment gateway, paddle gateway, credit card, paypal, pay, online payment, shop, e-commerce, ecommerce
 Requires at least: 4.0
-Tested up to: 5.2
-Stable tag: 1.2.7
+Tested up to: 5.3
+Stable tag: 1.2.8
 License: GPL-2.0+
 
 Accept a wide range of global payment methods including all major Credit Cards, PayPal, ApplePay and Wire Transfers (ACH/SEPA/BACS).
@@ -36,6 +36,10 @@ Navigate to your WordPress "Plugins" page, inside of your WordPress dashboard, a
 Have any question, shoot us a mail via support[at]omnipay.io
 
 == Changelog ==
+
+= 1.2.8 =
+* Fixed bug where VAT refunds caused payment/subscription to be refunded/cancelled in EDD
+* Fixed: declaration of case insensitive constant in defined() is deprecated
 
 = 1.2.7 =
 * Added self healing when there is a missing associated plan ID for a subscription.
