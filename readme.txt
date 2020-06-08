@@ -38,7 +38,7 @@ Have any question, shoot us a mail via support[at]omnipay.io
 == Changelog ==
 
 = 1.2.10 =
-* Added filter to disable paddle from updating EDD total amount
+* Added filter "edd_owp_paddle_disable_amount_update" to disable paddle from updating EDD total amount
 
 = 1.2.9 =
 * Fixed bug where cancelling subscription on upgrade didn't work.
