@@ -3,7 +3,7 @@ Donate link: https://omnipay.io/downloads/edd-paddle-payment-gateway/
 Tags: paddle, paddle payment, paddle checkout, easy digital downloads, edd, payment, payment gateway, gateway, paddle payment gateway, paddle gateway, credit card, paypal, pay, online payment, shop, e-commerce, ecommerce
 Requires at least: 4.0
 Tested up to: 5.4
-Stable tag: 1.2.10
+Stable tag: 1.2.11
 License: GPL-2.0+
 
 Accept a wide range of global payment methods including all major Credit Cards, PayPal, ApplePay and Wire Transfers (ACH/SEPA/BACS).
@@ -37,8 +37,11 @@ Have any question, shoot us a mail via support[at]omnipay.io
 
 == Changelog ==
 
+= 1.2.11 =
+* Fixed bug where webhook was failing if customers' name has a special character.
+
 = 1.2.10 =
-* Added filter "edd_owp_paddle_disable_amount_update" to disable paddle from updating EDD total amount
+* Added filter "edd_owp_paddle_disable_amount_update" to disable paddle from updating EDD total amount.
 
 = 1.2.9 =
 * Fixed bug where cancelling subscription on upgrade didn't work.
