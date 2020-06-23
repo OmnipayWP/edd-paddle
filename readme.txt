@@ -38,7 +38,7 @@ Have any question, shoot us a mail via support[at]omnipay.io
 == Changelog ==
 
 = 1.2.12 =
-* Fixed: Fatal error:  Uncaught Error: Class 'OmnipayWP\EDDPaddle\SL\stdClass' not found
+* Fixed: Fatal error:  Uncaught Error: Class 'OmnipayWP\EDDPaddle\SL\stdClass' not found.
 
 = 1.2.11 =
 * Fixed bug where webhook was failing if customers' name has a special character.
