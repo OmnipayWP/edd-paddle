@@ -37,6 +37,9 @@ Have any question, shoot us a mail via support[at]omnipay.io
 
 == Changelog ==
 
+= 1.2.15 =
+* Updated to comply with paddle new checkout requirement
+
 = 1.2.14 =
 * Fix bug where fatal error happens when EDD is deactivated.
 
